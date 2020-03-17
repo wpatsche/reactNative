@@ -25,6 +25,12 @@ const styles = StyleSheet.create({
     lineHeight: 21,
   },
 
+  error: {
+    color: colors.danger,
+    textAlign: 'center',
+    marginTop: metrics.baseMargin,
+  },
+
   form: {
     marginTop: metrics.baseMargin * 2,
   },
@@ -41,7 +47,7 @@ const styles = StyleSheet.create({
     borderRadius: metrics.baseRadius,
     height: 44,
     marginTop: metrics.baseMargin,
-    justifyContent: 'center',
+    justifyContent: 'space-between',
     alignItems: 'center',
   },
 
